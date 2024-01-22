@@ -1,5 +1,4 @@
-<section>
-	<h1>to your new<br />SvelteKit app
-	</h1>
-	<a href="/about">abut</a>
-</section>
+<script>
+	import Hero from "./components/Hero.svelte";
+</script>
+<Hero />
