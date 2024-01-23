@@ -1,1 +1,203 @@
-<h2>Hello</h2>
+<script>
+	import Newsletter from "../components/Newsletter.svelte";
+import PageHero from "../components/PageHero.svelte";
+</script>
+<PageHero 
+title="Example "
+subtitle="Conversations"
+content="Unlock the Potential of Data-Driven Assistants with Actual Conversations"
+/>
+<div class="tags-area mt-192">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Tags</h2>
+        <ul>
+          <li>
+            <a href="/integrations">Marketing</a>
+          </li>
+          <li>
+            <a href="/integrations">HR</a>
+          </li>
+          <li>
+            <a href="/integrations">Customer Support</a>
+          </li>
+          <li>
+            <a href="/integrations">Supply Chain & Logistics</a>
+          </li>
+          <li>
+            <a href="/integrations">Product</a>
+          </li>
+          <li>
+            <a href="/integrations">Sales</a>
+          </li>
+          <li>
+            <a href="/integrations">Operations</a>
+          </li>
+          <li>
+            <a href="/integrations">Engineering</a>
+          </li>
+          <li>
+            <a href="/integrations">Legal</a>
+          </li>
+          <li>
+            <a href="/integrations">Finance & Marketing</a>
+          </li>
+          <li>
+            <a href="/integrations">Administration</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tags-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Integrations</h2>
+        <ul>
+          <li>
+            <a href="/integrations">Shopify</a>
+          </li>
+          <li>
+            <a href="/integrations">Excel</a>
+          </li>
+          <li>
+            <a href="/integrations">Gmail</a>
+          </li>
+          <li>
+            <a href="/integrations">Zendesk</a>
+          </li>
+          <li>
+            <a href="/integrations">Jira</a>
+          </li>
+          <li>
+            <a href="/integrations">Coda</a>
+          </li>
+          <li>
+            <a href="/integrations">Calendly</a>
+          </li>
+          <li>
+            <a href="/integrations">Mailchimp</a>
+          </li>
+          <li>
+            <a href="/integrations">Typeform</a>
+          </li>
+          <li>
+            <a href="/integrations">Notion</a>
+          </li>
+          <li>
+            <a href="/integrations">Google Docs</a>
+          </li>
+          <li>
+            <a href="/integrations">Airtable</a>
+          </li>
+          <li>
+            <a href="/integrations">Google Sheets</a>
+          </li>
+          <li>
+            <a href="/integrations">Stripe</a>
+          </li>
+          <li>
+            <a href="/integrations">Google Calendar</a>
+          </li>
+          <li>
+            <a href="/integrations">Google Analytics</a>
+          </li>
+          <li>
+            <a href="/integrations">Github</a>
+          </li>
+          <li>
+            <a href="/integrations">Intercom</a>
+          </li>
+          <li>
+            <a href="/integrations">Google Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="solution-area mb-192">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="solution-item">
+          <div class="row align-items-center">
+            <div class="col-md-6 pr-47">
+              <div class="solution-item-list">
+                <div class="solution-chat-message">
+                  <div class="solution-chat-message-item">
+                    <img src="/img/user.svg" alt="user" width="{32}" height="{32}" />
+                    <div class="solution-chat-message-item-content">
+                      <h3>You <span>1:11 PM</span></h3>
+                      <p>What is the current total inventory value for the Salad serving set?</p>
+                    </div>
+                  </div>
+                  <div class="solution-chat-message-item">
+                    <img src="/img/user-assistify.svg" alt="user" width="{32}" height="{32}" />
+                    <div class="solution-chat-message-item-content">
+                      <h3>Assistify AI <span>8:42 PM</span></h3>
+                      <p>
+                        The current total inventory value for the Salad Serving Set is $1799.10.
+                      </p>
+                      <p>Calculation:</p>
+                      <ol>
+                        <li>Price per unit: $19.99</li>
+                        <li>Available units: 90</li>
+                        <li>Inventory value = Price per unit * Available units</li>
+                        <li>Inventory Total = $1$1799.10</li>
+                        <li>Inventory value = $19.99 * 90 = $1799.10</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="hero-chat-input">
+                    <input type="text" placeholder="Type your message" />
+                    <button>
+                      <img src="/img/mail.svg" alt="mail" width="{24}" height="{24}" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 pl-47 mt-30">
+              <div class="solution-item-list">
+                <div class="solution-single">
+                  <img src="/img/check.svg" alt="check" width="{24}" height="{56}" />
+                  <div>
+                    <h4>Marketing</h4>
+                    <p>Chat assistant for the marketing & paid ads team.</p>
+                  </div>
+                </div>
+                <div class="solution-single">
+                  <img src="/img/check.svg" alt="check" width="{24}" height="{56}" />
+                  <div>
+                    <h4>Sales</h4>
+                    <p>What was the revenue generated during the Black Friday?</p>
+                  </div>
+                </div>
+                <div class="solution-single">
+                  <img src="/img/check.svg" alt="check" width="{24}" height="{56}" />
+                  <div>
+                    <h4>Finance</h4>
+                    <p>Chat assistant for the Finance & Accounting teams.</p>
+                  </div>
+                </div>
+                <div class="solution-single">
+                  <img src="/img/check.svg" alt="check" width="{24}" height="{56}" />
+                  <div>
+                    <h4>Engineering</h4>
+                    <p>Chat assistant for the Product & engineering teams.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<Newsletter />

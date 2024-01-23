@@ -5,32 +5,32 @@
         <p class="text-center">Preferred by Teams at</p>
         <ul>
           <li>
-            <a href="#">
+            <a href="!#">
               <img src="/img/brand/1.png" alt="brand" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="!#">
               <img src="/img/brand/2.png" alt="brand" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="!#">
               <img src="/img/brand/3.png" alt="brand" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="!#">
               <img src="/img/brand/4.png" alt="brand" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="!#">
               <img src="/img/brand/5.png" alt="brand" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="!#">
               <img src="/img/brand/6.png" alt="brand" />
             </a>
           </li>
