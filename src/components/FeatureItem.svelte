@@ -11,7 +11,7 @@
     <h3>{title}</h3>
     <p>{content}</p>
     {#if link !== ''}
-    <a href={`/${link}`} class:btn={link !== ''}>View examples</a>
+    <a href={`/${link}`} class:btn={link !== ''} class="btn-secondary">View examples</a>
   {/if}
   </div>
 </div>
