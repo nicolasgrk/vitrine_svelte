@@ -1,7 +1,7 @@
 <script>
-	import ContactForm from "../components/ContactForm.svelte";
-	import Faq from "../components/Faq.svelte";
-import PageHero from "../components/PageHero.svelte";
+	import ContactForm from "../../components/ContactForm.svelte";
+	import Faq from "../../components/Faq.svelte";
+import PageHero from "../../components/PageHero.svelte";
 
 </script>
 <PageHero 

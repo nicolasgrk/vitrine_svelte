@@ -1,6 +1,6 @@
 <script>
-	import Newsletter from "../components/Newsletter.svelte";
-import PageHero from "../components/PageHero.svelte";
+	import Newsletter from "../../components/Newsletter.svelte";
+import PageHero from "../../components/PageHero.svelte";
 </script>
 <PageHero 
 title="Example "

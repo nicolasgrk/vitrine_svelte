@@ -1,8 +1,8 @@
 <script>
-  import Brand from "../components/Brand.svelte";
-	import Newsletter from "../components/Newsletter.svelte";
-import PageHero from "../components/PageHero.svelte";
-	import Solution from "../components/Solution.svelte";
+  import Brand from "../../components/Brand.svelte";
+	import Newsletter from "../../components/Newsletter.svelte";
+import PageHero from "../../components/PageHero.svelte";
+	import Solution from "../../components/Solution.svelte";
   </script>
   <PageHero 
   title="Noteworthy"

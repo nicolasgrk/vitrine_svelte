@@ -1,10 +1,10 @@
 <script>
-	import Brand from "./components/Brand.svelte";
-	import Faq from "./components/Faq.svelte";
-	import Hero from "./components/Hero.svelte";
-	import Newsletter from "./components/Newsletter.svelte";
-	import Price from "./components/Price.svelte";
-	import Solution from "./components/Solution.svelte";
+	import Brand from "../components/Brand.svelte";
+	import Faq from "../components/Faq.svelte";
+	import Hero from "../components/Hero.svelte";
+	import Newsletter from "../components/Newsletter.svelte";
+	import Price from "../components/Price.svelte";
+	import Solution from "../components/Solution.svelte";
 </script>
 <Hero />
 <Brand />
