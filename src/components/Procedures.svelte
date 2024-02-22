@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="title-2">Frequently Asked <span>Questions</span></h2>
+        <h2 class="title-2">Mes <span>procedures</span></h2>
         <div class="accordion" id="accordionInner">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -14,7 +14,7 @@
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                What is the limit on creating assistants?
+                Analyse de Vos Besoins Personnalisée
               </button>
             </h2>
             <div
@@ -23,10 +23,7 @@
               data-bs-parent="#accordionInner"
             >
               <div class="accordion-body">
-                Create as many assistants as you need! Enjoy unlimited flexibility by connecting
-                each assistant to unique integrations and data sources. This allows them to cater
-                to various teams, employees, or specific use cases seamlessly, with no
-                restrictions.
+                Nous commençons par un entretien individuel pour comprendre en profondeur vos besoins, vos souhaits et vos objectifs. Cette étape essentielle constitue la base solide sur laquelle nous construisons votre projet, évitant ainsi les malentendus ultérieurs.
               </div>
             </div>
           </div>
@@ -40,7 +37,7 @@
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Is it possible to control the data accessible to an assistant?
+                Conception Initiale
               </button>
             </h2>
             <div
@@ -49,10 +46,7 @@
               data-bs-parent="#accordionInner"
             >
               <div class="accordion-body">
-                Create as many assistants as you need! Enjoy unlimited flexibility by connecting
-                each assistant to unique integrations and data sources. This allows them to cater
-                to various teams, employees, or specific use cases seamlessly, with no
-                restrictions.
+                Je travaille sur la création d'une première maquette du projet, vous permettant de visualiser rapidement le concept de manière réaliste. Nous nous assurons ainsi que nous sommes sur la même longueur d'onde en termes de conception et de fonctionnalités.
               </div>
             </div>
           </div>
@@ -66,7 +60,7 @@
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Is it possible to personalize my assistant chat page?
+              Communication active et transparente
               </button>
             </h2>
             <div
@@ -75,10 +69,7 @@
               data-bs-parent="#accordionInner"
             >
               <div class="accordion-body">
-                Create as many assistants as you need! Enjoy unlimited flexibility by connecting
-                each assistant to unique integrations and data sources. This allows them to cater
-                to various teams, employees, or specific use cases seamlessly, with no
-                restrictions.
+                Tout au long du projet, je maintiens une communication continue avec vous. Je vous tiens régulièrement informé(e) des progrès réalisés et sollicite vos retours. Cette approche proactive garantit que votre projet évolue en adéquation avec vos attentes, permettant de résoudre tout problème potentiel dès le départ.
               </div>
             </div>
           </div>
@@ -92,7 +83,7 @@
                 aria-expanded="false"
                 aria-controls="collapseFour"
               >
-                What the time frame for setting up and launching the assistant?
+                Livraison
               </button>
             </h2>
             <div
@@ -101,36 +92,7 @@
               data-bs-parent="#accordionInner"
             >
               <div class="accordion-body">
-                Create as many assistants as you need! Enjoy unlimited flexibility by connecting
-                each assistant to unique integrations and data sources. This allows them to cater
-                to various teams, employees, or specific use cases seamlessly, with no
-                restrictions.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFive"
-                aria-expanded="false"
-                aria-controls="collapseFive"
-              >
-                How customizable is the AI assistant interface and functionality?
-              </button>
-            </h2>
-            <div
-              id="collapseFive"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionInner"
-            >
-              <div class="accordion-body">
-                Create as many assistants as you need! Enjoy unlimited flexibility by connecting
-                each assistant to unique integrations and data sources. This allows them to cater
-                to various teams, employees, or specific use cases seamlessly, with no
-                restrictions.
+                Je vous organise une présentation finale, où nous examinons attentivement chaque aspect du projet. Je m'assure que toutes les fonctionnalités et les détails convenus initialement sont parfaitement mis en place. Votre satisfaction reste ma priorité absolue, et cette étape garantit que j'ai pris en compte tous vos commentaires tout au long du processus.
               </div>
             </div>
           </div>

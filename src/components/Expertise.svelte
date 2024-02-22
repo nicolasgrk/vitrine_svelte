@@ -85,7 +85,7 @@
       }
       .right,
       .left {
-        height: 100vh;
+        height: 80vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -134,7 +134,7 @@
         font-weight: 700;
       }
       .cardContent {
-        font-size: 38px;
+        font-size: 35px;
         font-weight: 700;
         line-height: 54px;
       }
@@ -153,7 +153,7 @@
       .top,
       .bottom {
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         font-size: 70px;
         display: flex;
         align-items: center;

@@ -11,7 +11,7 @@
         </p>
         <div class="hero-btn">
           <a href="/contact" class="btn btn-tertiary"> Découvrir </a>
-          <a href="/pricing" class="btn btn-primary"> Contactez-moi ! </a>
+          <a href="#contact" class="btn btn-primary"> Contactez-moi ! </a>
         </div>
       </div>
     </div>

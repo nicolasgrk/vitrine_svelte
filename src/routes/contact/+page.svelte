@@ -1,6 +1,6 @@
 <script>
 	import ContactForm from "../../components/ContactForm.svelte";
-	import Faq from "../../components/Faq.svelte";
+	import Procedures from "../../components/Procedures.svelte";
 import About from "../../components/aboutComponent.svelte";
 
 </script>
@@ -10,4 +10,4 @@ subtitle="Us"
 content="Got questions? Reach out! We're here and ready to assist." 
 />
 <ContactForm />
-<Faq />
+<Procedures />

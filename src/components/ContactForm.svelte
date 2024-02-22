@@ -15,56 +15,32 @@
   };
 </script>
 
-<div class="contact-area mtb-192">
+<div class="contact-area mtb-192" id="contact">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="title-2">Get <span>in Touch</span></h2>
+        <h2 class="title-2">Me <span>contacter</span></h2>
       </div>
-      <div class="col-md-12 col-lg-6">
-        <div class="contact-content">
-          <img src="/img/logo.svg" alt="logo" />
-          <p>
-            OpenAI presented Assistify with a range of challenging tasks, featuring tight latency
-            requirements, substantial ambiguity, and instances of incorrect answers. In turn,
-            Assistify collaborated closely to tailor their QA systems to our specific
-            requirements.
-          </p>
-          <h3>John Lawson</h3>
-          <h4>Member of Technical Staff</h4>
-          <h5>Trusted by the world's most ambitious teams</h5>
-          <div class="contact-brand">
-            <img src="/img/brand/1.png" alt="brand" />
-            <img src="/img/brand/2.png" alt="brand" />
-            <img src="/img/brand/3.png" alt="brand" />
-            <img src="/img/brand/4.png" alt="brand" />
-            <img src="/img/brand/5.png" alt="brand" />
-            <img src="/img/brand/6.png" alt="brand" />
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12 col-lg-6">
+      <div class="col-md-12 col-lg-12">
         <div class="contact-form">
-          <h2>Quick Responses Await!</h2>
+          <h2>Transformons Vos Idées en Réalité !</h2>
           <p>
-            Connect with us! Feel free to ask any questions or share your thoughts. We'll respond
-            promptly.
+            Votre projet mérite une attention sur-mesure. Contactez-moi dès maintenant pour le concrétiser ensemble !
           </p>
           <form on:submit|preventDefault={submitForm}>
             <div class="form-group">
               <div class="input-group">
-                <input bind:value={firstName} type="text" placeholder="First Name*" required />
-                <input bind:value={lastName} type="text" placeholder="Last Name*" required />
+                <input bind:value={firstName} type="text" placeholder="Prénom*" required />
+                <input bind:value={lastName} type="text" placeholder="Nom*" required />
               </div>
               <div class="input-group">
-                <input bind:value={companyName} type="text" placeholder="Company Name*" required />
-                <input bind:value={jobTitle} type="text" placeholder="Job Title*" required />
+                <input bind:value={companyName} type="text" placeholder="Entreprise" />
               </div>
               <div class="input-group">
-                <input bind:value={email} type="email" placeholder="Email Address*" required />
-                <input bind:value={phoneNumber} type="text" placeholder="Phone Number*" required />
+                <input bind:value={email} type="email" placeholder="Adresse e-mail*" required />
+                <input bind:value={phoneNumber} type="text" placeholder="Téléphone*" required />
               </div>
-              <input bind:value={message} type="text" placeholder="How can we help?" required />
+              <input bind:value={message} type="text" placeholder="Décrivez votre projet" required />
             </div>
             <div class="form-check">
               <input bind:checked={acceptTerms} class="form-check-input" type="checkbox" id="flexCheckDefault" required />
