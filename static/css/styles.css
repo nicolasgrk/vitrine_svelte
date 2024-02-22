@@ -56,7 +56,7 @@ Index
 	--dark-900: #08080d;
 	--input-bg: #0000004d;
 	--input-border: #3d2d5a;
-	--gradient-lavender-pink-peach: linear-gradient(98deg, #a570ff 0%, #ff6eb2 50%, #ffad66 100%);
+	--gradient-lavender-pink-peach: linear-gradient(98deg, #d47f32 0%,  #9e4658 20%, #893066 40%, #6a2175 60%, #370b8f 80%, #20037d 100%);
 	--gradient-w-500-w-100: linear-gradient(
 		180deg,
 		rgba(5, 5, 15, 0) 0%,
@@ -76,7 +76,8 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 400;
-	background: #08080d url(/img/bg.svg) center/cover no-repeat;
+	/*background: red url(/img/bg.svg) center/cover no-repeat;*/
+	background-color: #121212;
 	color: var(--light-300);
 }
 input:focus {
@@ -166,8 +167,14 @@ input::placeholder {
 .mt-192 {
 	margin-top: 192px;
 }
+.mt-100 {
+	margin-top: 100px;
+}
 .mb-192 {
 	margin-bottom: 192px;
+}
+.mt-100 {
+	margin-top: 100px;
 }
 /* ======================================
  *  02. Header

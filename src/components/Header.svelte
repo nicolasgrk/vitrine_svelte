@@ -24,15 +24,15 @@
           <nav>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/examples">Examples</a></li>
-              <li><a href="/integrations">Integrations</a></li>
-              <li><a href="/pricing">Pricing</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="/about">A propos</a></li>
+              <li><a href="/integrations">Expertise</a></li>
+              <li><a href="/pricing">Projets</a></li>
+              <li><a href="/contact">Procédure</a></li>
             </ul>
           </nav>
         </div>
         <div class="col-md-2 text-end">
-          <a href="/contact" class="btn btn-secondary">Get Started</a>
+          <a href="/contact" class="btn btn-primary">Contactez-moi !</a>
         </div>
       </div>
     </div>
@@ -64,13 +64,13 @@
       <nav>
         <ul>
           <li on:click={closeMobileMenu}><a href="/">Home</a></li>
-          <li on:click={closeMobileMenu}><a href="/examples">Examples</a></li>
-          <li on:click={closeMobileMenu}><a href="/integrations">Integrations</a></li>
-          <li on:click={closeMobileMenu}><a href="/pricing">Pricing</a></li>
-          <li on:click={closeMobileMenu}><a href="/contact">Contact</a></li>
+          <li on:click={closeMobileMenu}><a href="/about">A propos</a></li>
+          <li on:click={closeMobileMenu}><a href="/integrations">Expertise</a></li>
+          <li on:click={closeMobileMenu}><a href="/pricing">Projets</a></li>
+          <li on:click={closeMobileMenu}><a href="/contact">Procédure</a></li>
         </ul>
       </nav>
-      <a href="/contact" class="btn btn-secondary">Get Started</a>
+      <a href="/contact" class="btn btn-primary">Contactez-moi !</a>
     </div>
   </div>
 </header>

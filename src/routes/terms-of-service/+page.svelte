@@ -1,7 +1,7 @@
 <script>
-  import PageHero from "../../components/PageHero.svelte";
+  import About from "../../components/aboutComponent.svelte";
   </script>
-  <PageHero 
+  <About 
   title="Terms of"
   subtitle="Service"
   content="Last Updated: August 22, 2023" 

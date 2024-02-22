@@ -1,8 +1,8 @@
 <script>
 	import Newsletter from "../../components/Newsletter.svelte";
-import PageHero from "../../components/PageHero.svelte";
+import About from "../../components/aboutComponent.svelte";
 </script>
-<PageHero 
+<About 
 title="Example "
 subtitle="Conversations"
 content="Unlock the Potential of Data-Driven Assistants with Actual Conversations"

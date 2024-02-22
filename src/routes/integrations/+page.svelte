@@ -2,9 +2,9 @@
   import Brand from "../../components/Brand.svelte";
 	import FeatureItem from "../../components/FeatureItem.svelte";
 	import Newsletter from "../../components/Newsletter.svelte";
-import PageHero from "../../components/PageHero.svelte";
+import About from "../../components/aboutComponent.svelte";
   </script>
-  <PageHero 
+  <About 
   title="Effortless"
   subtitle="Integrations"
   content="Easily connect tools, databases, or import files with just a few clicks. Assistify seamlessly integrates with various platforms and file formats, ensuring a smooth experience."

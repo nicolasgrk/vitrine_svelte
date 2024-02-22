@@ -1,7 +1,7 @@
 <script>
-  import PageHero from "../../components/PageHero.svelte";
+  import About from "../../components/aboutComponent.svelte";
   </script>
-  <PageHero 
+  <About 
   title="Privacy"
   subtitle="Policy"
   content="Thanks for using Assistify! Our Privacy Policy details how we handle your info. By using Assistify, you agree to these practices." 

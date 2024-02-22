@@ -2,6 +2,8 @@
   export let title = '';
   export let subtitle = '';
   export let content = '';
+  export let content2 = '';
+
 </script>
 
 <div class="hero-area">
@@ -12,7 +14,12 @@
           {title}
           <span> {subtitle}</span>
         </h1>
+        <br/>
+
         <p class="mx-850 text-center">{content}</p>
+        <br/>
+        <br/>
+        <p class="mx-850 text-center">{content2}</p>
       </div>
     </div>
   </div>
