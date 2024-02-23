@@ -8,11 +8,7 @@
   let message = '';
   let acceptTerms = false;
 
-  const submitForm = () => {
-    // Handle form submission logic here
-    // Access form data using firstName, lastName, etc.
-    // You can send the data to your backend or perform other actions.
-  };
+
 </script>
 
 <div class="contact-area mtb-192" >
@@ -27,7 +23,7 @@
           <p>
             Votre projet mérite une attention sur-mesure. Contactez-moi dès maintenant pour le concrétiser ensemble !
           </p>
-          <form on:submit|preventDefault={submitForm} netlify>
+          <form  name= "contact" method="POST" data-netlify="true">
             <div class="form-group">
               <div class="input-group">
                 <input bind:value={firstName} type="text" placeholder="Prénom*" required />
