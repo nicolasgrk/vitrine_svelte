@@ -2,9 +2,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="title-2">Mes <span>procedures</span></h2>
-        <div class="accordion" id="accordionInner">
-          <div class="accordion-item">
+        <h2 class="title-2"id="procedure">Mes <span>procedures</span></h2>
+        <div class="accordion" id="accordionInner" >
+          <div class="accordion-item" >
             <h2 class="accordion-header">
               <button
                 class="accordion-button"

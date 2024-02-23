@@ -172,7 +172,7 @@
 <div class="center">
     <div class="stack-area">
       <div class="left">
-        <h1 class="title">
+        <h1 class="title" id="expertise">
           Notre <br />
           <span>Expertise</span>
         </h1>

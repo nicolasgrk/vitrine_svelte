@@ -3,12 +3,14 @@
   export let subtitle = '';
   export let content = '';
   export let content2 = '';
+  export let id = '';
+
 
 </script>
 
 <div class="hero-area">
   <div class="container">
-    <div class="row">
+    <div class="row" id={id}>
       <div class="col-md-12">
         <h1 class="title">
           {title}

@@ -15,7 +15,7 @@ title="A propos"
 subtitle="de moi"
 content="En tant que développeur web freelance, je transforme vos idées en solutions numériques innovantes. Mon expertise en développement web s'étend sur plusieurs années, durant lesquelles j'ai acquis la capacité de créer des sites web qui allient fonctionnalité, esthétique et facilité d'utilisation."
 content2="Que vous cherchiez à lancer un nouveau site web pour votre entreprise, à améliorer un site web existant, ou à créer une application web unique, je suis là pour vous aider à atteindre vos objectifs."
-
+id="about"
 />
 <Card />
 <Expertise />
@@ -26,6 +26,7 @@ content2="Que vous cherchiez à lancer un nouveau site web pour votre entreprise
 		subtitle="projets"
 		content="Un aperçu de mon voyage dans le monde du développement web"
 		content2=""
+    id ="projets"
 		
 		/>
       <div class="row gy-4">

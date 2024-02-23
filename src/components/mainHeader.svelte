@@ -10,7 +10,7 @@
           Sites vitrines, E-commerce, et plus encore pour valoriser votre marque.
         </p>
         <div class="hero-btn">
-          <a href="/contact" class="btn btn-tertiary"> Découvrir </a>
+          <a href="#about" class="btn btn-tertiary"> Découvrir </a>
           <a href="#contact" class="btn btn-primary"> Contactez-moi ! </a>
         </div>
       </div>

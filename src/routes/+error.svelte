@@ -5,13 +5,13 @@
         <h2 class="title-2">
           <span>404.</span>
         </h2>
-        <h3>Page not found</h3>
+        <h3>Cette page n'existe pas</h3>
         <p>
-          Oops! It seems you&apos;ve ventured into uncharted territory.
-          Let&apos;s guide you back on the right path.
+          Oops! Il semble que vous vous soyez aventuré en territoire inexploré
+          Retournez en lieu sûr !
         </p>
         <a href="/" class="btn btn-primary">
-          Back to homepage
+          Accueil
         </a>
       </div>
     </div>

@@ -1,6 +1,13 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <!-- svelte-ignore a11y-no-static-element-interactions -->
+<style>
+  ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+</style>
 <script>
   let isMobileMenuOpen = false;
   const toggleMobileMenu = () => {
@@ -23,16 +30,16 @@
         <div class="col-md-8">
           <nav>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">A propos</a></li>
-              <li><a href="/integrations">Expertise</a></li>
-              <li><a href="/pricing">Projets</a></li>
-              <li><a href="/contact">Procédure</a></li>
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/#about">A propos</a></li>
+              <li><a href="/#expertise">Expertise</a></li>
+              <li><a href="/#projets">Projets</a></li>
+              <li><a href="/#procedure">Procédure</a></li>
             </ul>
           </nav>
         </div>
         <div class="col-md-2 text-end">
-          <a href="/contact" class="btn btn-primary">Contactez-moi !</a>
+          <a href="/#contact" class="btn btn-primary">Contactez-moi !</a>
         </div>
       </div>
     </div>

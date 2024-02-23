@@ -1,11 +1,18 @@
+<style>
+  ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+</style>
 <footer>
   <div class="container">
-    <div class="row gy-4">
-      <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-12 text-center">
         <img src="/img/logo.svg" alt="logo" />
-        <p>Mail: nicolasgurak@gmail.com
-          Téléphone: 0786103059
-          Basé à Rennes 35000, France</p>
+        <p class="mx-850 text-center"><strong>Mail:</strong> nicolasgurak@gmail.com</p>
+        <p class="mx-850 text-center"><strong>Téléphone:</strong> 0786103059</p>
+        <p class="mx-850 text-center">Basé à Rennes 35000, France</p>
       </div>
       
     </div>
