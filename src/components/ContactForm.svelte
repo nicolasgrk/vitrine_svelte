@@ -1,15 +1,4 @@
-<script>
-  let firstName = '';
-  let lastName = '';
-  let companyName = '';
-  let jobTitle = '';
-  let email = '';
-  let phoneNumber = '';
-  let message = '';
-  let acceptTerms = false;
 
-
-</script>
 
 <div class="contact-area mtb-192" >
   <div class="container">
@@ -26,20 +15,20 @@
           <form  name= "contact" method="POST" data-netlify="true">
             <div class="form-group">
               <div class="input-group">
-                <input bind:value={firstName} type="text" placeholder="Prénom*" required />
-                <input bind:value={lastName} type="text" placeholder="Nom*" required />
+                <input type="text" placeholder="Prénom*" required  name="firstname"/>
+                <input type="text" placeholder="Nom*" required name="lastname"/>
               </div>
               <div class="input-group">
-                <input bind:value={companyName} type="text" placeholder="Entreprise" />
+                <input  type="text" placeholder="Entreprise" name="entreprise"/>
               </div>
               <div class="input-group">
-                <input bind:value={email} type="email" placeholder="Adresse e-mail*" required />
-                <input bind:value={phoneNumber} type="text" placeholder="Téléphone*" required />
+                <input  type="email" placeholder="Adresse e-mail*" required name="email"/>
+                <input  type="text" placeholder="Téléphone*" required name="tel"/>
               </div>
-              <input bind:value={message} type="text" placeholder="Décrivez votre projet" required />
+              <input  type="text" placeholder="Décrivez votre projet" name="message" required />
             </div>
             <div class="form-check">
-              <input bind:checked={acceptTerms} class="form-check-input" type="checkbox" id="flexCheckDefault" required />
+              <input  class="form-check-input" type="checkbox" id="flexCheckDefault" required />
               <label for="flexCheckDefault">J'ai lu et accepté les termes et conditions, la politique de confidentialité.</label>
             </div>
             <button type="submit" class="btn btn-primary">Envoyer</button>
