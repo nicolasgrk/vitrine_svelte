@@ -7,9 +7,12 @@
 	import Card from "../components/cardComponent.svelte";
 	import FeatureItem from "../components/FeatureItem.svelte";
 	import ContactForm  from "../components/ContactForm.svelte";
+  export const prerender = true;
 
 </script>
+
 <MainHeader />
+<Brand />
 <About 
 title="A propos"
 subtitle="de moi"
