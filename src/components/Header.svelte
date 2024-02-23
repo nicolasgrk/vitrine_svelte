@@ -70,14 +70,14 @@
       </strong>
       <nav>
         <ul>
-          <li on:click={closeMobileMenu}><a href="/">Home</a></li>
-          <li on:click={closeMobileMenu}><a href="/about">A propos</a></li>
-          <li on:click={closeMobileMenu}><a href="/integrations">Expertise</a></li>
-          <li on:click={closeMobileMenu}><a href="/pricing">Projets</a></li>
-          <li on:click={closeMobileMenu}><a href="/contact">Procédure</a></li>
+          <li on:click={closeMobileMenu}><a href="/">Accueil</a></li>
+          <li on:click={closeMobileMenu}><a href="/#about">A propos</a></li>
+          <li on:click={closeMobileMenu}><a href="/#expertise">Expertise</a></li>
+          <li on:click={closeMobileMenu}><a href="/#projets">Projets</a></li>
+          <li on:click={closeMobileMenu}><a href="/#procedure">Procédure</a></li>
         </ul>
       </nav>
-      <a href="/contact" class="btn btn-primary">Contactez-moi !</a>
+      <a href="/#contact" class="btn btn-primary">Contactez-moi !</a>
     </div>
   </div>
 </header>

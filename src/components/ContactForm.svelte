@@ -27,7 +27,7 @@
           <p>
             Votre projet mérite une attention sur-mesure. Contactez-moi dès maintenant pour le concrétiser ensemble !
           </p>
-          <form on:submit|preventDefault={submitForm}>
+          <form on:submit|preventDefault={submitForm} netlify>
             <div class="form-group">
               <div class="input-group">
                 <input bind:value={firstName} type="text" placeholder="Prénom*" required />
