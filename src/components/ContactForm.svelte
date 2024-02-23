@@ -12,7 +12,7 @@
           <p>
             Votre projet mérite une attention sur-mesure. Contactez-moi dès maintenant pour le concrétiser ensemble !
           </p>
-          <form  name= "contact" method="POST" data-netlify="true">
+          <form  name= "contact" method="POST" >
             <div class="form-group">
               <div class="input-group">
                 <input type="text" placeholder="Prénom*" required  name="firstname"/>
@@ -38,3 +38,32 @@
     </div>
   </div>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector('form[name="contact"]');
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); // Empêcher l'envoi classique du formulaire
+  
+      // Création de l'objet FormData à partir du formulaire
+      const formData = new FormData(form);
+  
+      // Envoi des données du formulaire avec fetch
+      fetch('https://nicolasgurakapi.000webhostapp.com/sendmail.php', {
+        method: 'POST',
+        body: formData,
+      })
+      .then(response => response.json()) // Assurez-vous de traiter la réponse en tant que JSON
+      .then(data => {
+        if(data.status === 'success') {
+          alert(data.message); // Message de succès
+        } else {
+          alert(data.message); // Message d'erreur ou autre feedback
+        }
+      })
+      .catch(error => {
+        console.error('Erreur lors de l\'envoi du formulaire :', error);
+      });
+    });
+  });
+  </script>
+  
