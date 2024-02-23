@@ -1,0 +1,99 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_Brand.js": {
+    "file": "chunks/Brand.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_aboutComponent.js": {
+    "file": "chunks/aboutComponent.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+error.svelte"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/_layout.jXMHxpiu.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.JcsR2L4y.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_aboutComponent.js",
+      "_Brand.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Brand.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/about/+page.svelte"
+  },
+  "src/routes/privacy-policy/+page.svelte": {
+    "file": "entries/pages/privacy-policy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_aboutComponent.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy-policy/+page.svelte"
+  },
+  "src/routes/terms-of-service/+page.svelte": {
+    "file": "entries/pages/terms-of-service/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_aboutComponent.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/terms-of-service/+page.svelte"
+  }
+}

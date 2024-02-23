@@ -1,4 +1,4 @@
-<script>
+<script context="module">
 	import Brand from "../components/Brand.svelte";
 	import Procedures from "../components/Procedures.svelte";
 	import MainHeader from "../components/mainHeader.svelte";
@@ -7,7 +7,6 @@
 	import Card from "../components/cardComponent.svelte";
 	import FeatureItem from "../components/FeatureItem.svelte";
 	import ContactForm  from "../components/ContactForm.svelte";
-  export const prerender = true;
 
 </script>
 

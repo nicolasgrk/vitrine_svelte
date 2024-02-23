@@ -1,0 +1,19 @@
+import { c as create_ssr_component, v as validate_component } from "../../../chunks/ssr.js";
+import { A as AboutComponent } from "../../../chunks/aboutComponent.js";
+const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(AboutComponent, "About").$$render(
+    $$result,
+    {
+      title: "Politique de ",
+      subtitle: "confidentialité",
+      content: "Chez NicolasGurak, accessible à partir de ..., l’une de nos principales priorités est la confidentialité de nos visiteurs. Ce document de Politique de Confidentialité contient des types d’informations qui sont collectées et enregistrées par Nicolas Gurak et comment nous les utilisons.\n\n  Si vous avez des questions supplémentaires ou avez besoin de plus d’informations sur notre Politique de Confidentialité, n’hésitez pas à nous contacter."
+    },
+    {},
+    {}
+  )} <div class="policy-area mt-192" data-svelte-h="svelte-pls5o"><div class="container"><div class="row"><div class="col-md-4"><div class="pills-tab" role="tablist" aria-orientation="vertical"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pillOne">Informations que nous collectons</button> <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pillTwo">Utilisation de l’information</button> <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pillThree">Conservation des données</button> <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pillFour">Sécurité de l’Information</button> <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pillFive">Consentement</button> </div></div> <div class="col-md-8"><div class="tab-content"><div class="tab-pane fade show active" id="pillOne" role="tabpanel"><h3>Collecte de l’Information</h3> <p>Nous collectons les informations suivantes via notre formulaire sur le site :</p> <ul><li>Nom</li> <li>Prénom</li> <li>Nom de l’entreprise (facultatif)</li> <li>Adresse email</li> <li>Numéro de téléphone</li> <li>Description du projet</li></ul> <p>Ces informations sont collectées uniquement lorsque l’utilisateur décide volontairement de nous fournir ces informations via notre formulaire. Les informations fournies ne seront utilisées que pour répondre aux requêtes de l’utilisateur, et ne seront en aucun cas partagées avec des tiers sans consentement explicite.</p></div> <div class="tab-pane fade" id="pillTwo" role="tabpanel"><h3>Utilisation de l’information</h3> <p>Les informations que nous collectons sont utilisées pour :</p> <ul><li>Contacter l&#39;utilisateur en réponse à sa demande d&#39;informations ou de services.</li> <li>Améliorer la qualité de nos services et de notre site web.</li></ul></div> <div class="tab-pane fade" id="pillThree" role="tabpanel"><h3>Conservation des données</h3> <p>NicolasGurak conservera vos informations personnelles seulement pour la durée nécessaire aux fins établies dans cette Politique de Confidentialité. Nous conserverons et utiliserons vos informations 
+                dans la mesure nécessaire pour nous conformer à nos obligations légales, résoudre des litiges et appliquer nos politiques.</p></div> <div class="tab-pane fade" id="pillFour" role="tabpanel"><h3>Sécurité de l’Information</h3> <p>La sécurité de vos données personnelles est importante pour nous, mais rappelez-vous qu&#39;aucune méthode de transmission sur Internet ou méthode de stockage électronique n&#39;est sécurisée à 100 %. Bien que nous nous efforcions d&#39;utiliser 
+                des moyens commercialement acceptables pour protéger vos données personnelles, nous ne pouvons garantir leur sécurité absolue.</p></div> <div class="tab-pane fade" id="pillFive" role="tabpanel"><h3>Consentement</h3> <p>En utilisant notre site web, vous consentez par la présente à notre Politique de Confidentialité et acceptez ses termes.</p></div></div></div></div></div></div>`;
+});
+export {
+  Page as default
+};
