@@ -176,9 +176,9 @@
           Notre <br />
           <span>Expertise</span>
         </h1>
-        <div class="sub-title">
+        <p class="text-center" style="width: 450px">
           Je propose une gamme variée de services pour répondre à vos besoins en matière de présence en ligne. Chaque service est conçu pour vous aider à atteindre vos objectifs spécifiques et à maximiser votre impact numérique.
-        </div>
+        </p>
       </div>
       <div class="right">
         <div class="cards">

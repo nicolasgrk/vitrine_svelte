@@ -1027,6 +1027,9 @@ footer p {
 	.hero-brand ul {
 		justify-content: center;
 	}
+	.mockup{
+		margin-left: -130px;
+	}
 }
 @media screen and (max-width: 430px) {
 	.title {
