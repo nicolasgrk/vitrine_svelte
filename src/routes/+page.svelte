@@ -7,6 +7,8 @@
 	import Card from "../components/cardComponent.svelte";
 	import FeatureItem from "../components/FeatureItem.svelte";
 	import ContactForm  from "../components/ContactForm.svelte";
+  import { onMount } from 'svelte';
+
 
 </script>
 
