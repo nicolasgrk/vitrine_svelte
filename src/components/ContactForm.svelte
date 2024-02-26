@@ -11,7 +11,7 @@
       });
       
       if (response.ok) {
-        alert('Email envoyé avec succès !'); // Utiliser une méthode plus sophistiquée dans une application réelle
+        $('#successModal').modal('show');
       } else {
         alert('Erreur lors de l\'envoi de l\'email.');
       }
@@ -56,6 +56,25 @@
           </form>
           
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="background-color: var(--dark-700); border-color: var(--lavender);">
+      <div class="modal-header" style="border-bottom-color: var(--lavender);">
+        <h5 class="modal-title" id="modalLabel" style="color: var(--light);">Message envoyé</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: var(--light);">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="color: var(--light);">
+        Votre message a été envoyé avec succès. Nous vous contacterons bientôt !
+      </div>
+      <div class="modal-footer" style="border-top-color: var(--lavender);">
+        <button type="button" class="btn" data-dismiss="modal" style="background-color: var(--lavender); color: var(--light);">Fermer</button>
       </div>
     </div>
   </div>
