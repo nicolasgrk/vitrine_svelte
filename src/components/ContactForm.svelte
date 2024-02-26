@@ -1,4 +1,13 @@
 <script>
+  import { onMount } from 'svelte';
+  let successModal;
+
+  onMount(() => {
+    // Assurez-vous que Bootstrap est chargé
+    // Cela pourrait ne pas être nécessaire si Bootstrap est déjà chargé globalement
+    // mais utile si vous chargez les scripts dynamiquement
+  });
+
   async function handleSubmit(event) {
     event.preventDefault();
     const form = event.target;
@@ -11,7 +20,7 @@
       });
       
       if (response.ok) {
-        $('#successModal').modal('show');
+        new bootstrap.Modal(successModal).show();
       } else {
         alert('Erreur lors de l\'envoi de l\'email.');
       }
@@ -20,7 +29,6 @@
     }
   }
 </script>
-
 <div class="contact-area mtb-192" >
   <div class="container">
     <div class="row">
@@ -61,7 +69,7 @@
   </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" bind:this={successModal}>
   <div class="modal-dialog" role="document">
     <div class="modal-content" style="background-color: var(--dark-700); border-color: var(--lavender);">
       <div class="modal-header" style="border-bottom-color: var(--lavender);">
