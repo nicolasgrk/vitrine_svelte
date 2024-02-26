@@ -5,7 +5,7 @@
     const formData = new FormData(form);
     
     try {
-      const response = await fetch('https://nicolasgurak-fr.preview-domain.com/', {
+      const response = await fetch('https://nicolasgurakapi.alwaysdata.net/mail.php', {
         method: 'POST',
         body: formData,
       });
@@ -33,7 +33,7 @@
           <p>
             Votre projet mérite une attention sur-mesure. Contactez-moi dès maintenant pour le concrétiser ensemble !
           </p>
-          <form name="contact" action="https://nicolasgurak-fr.preview-domain.com/" method="post" on:submit={handleSubmit}>
+          <form name="contact" action="https://nicolasgurakapi.alwaysdata.net/mail.php" method="post" on:submit={handleSubmit}>
             <div class="form-group">
               <div class="input-group">
                 <input type="text" placeholder="Prénom*" required name="firstname" />
