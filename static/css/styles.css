@@ -309,8 +309,13 @@ header nav ul li a:hover {
 	border: 1px solid #28263f;
 	padding: 31px;
 }
-.mockup{
-	margin-left: -80px;
+
+.Simeon{
+	margin-left: 70px;
+
+}
+.Carpeto{
+	margin-left: 50px;
 }
 .feature-item a {
 	border-radius: 8px;
@@ -1030,6 +1035,10 @@ footer p {
 	.mockup{
 		margin-left: -0px;
 		width:250px;
+	}
+	.Simeon{
+		width: 100px;
+    	margin-left: 70px;
 	}
 }
 @media screen and (max-width: 430px) {
