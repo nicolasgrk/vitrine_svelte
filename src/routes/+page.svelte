@@ -13,7 +13,6 @@
 </script>
 
 <MainHeader />
-<Brand />
 <About 
 title="A propos"
 subtitle="de moi"
