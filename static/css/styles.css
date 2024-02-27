@@ -1028,7 +1028,8 @@ footer p {
 		justify-content: center;
 	}
 	.mockup{
-		margin-left: -130px;
+		margin-left: -0px;
+		width:250px;
 	}
 }
 @media screen and (max-width: 430px) {

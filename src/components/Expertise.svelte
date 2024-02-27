@@ -60,7 +60,6 @@
       window.addEventListener("resize", adjust);
   });
 </script>
-
 <style>
       body {
         width: 100%;
@@ -164,7 +163,20 @@
       @media screen and (max-width: 800px) {
         .left {
           position: relative;
-          width: 100vw;
+          width: 100%;
+        }
+        .card {
+        width: 250px;
+        height: 250px;
+        }
+        .cardContent {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 45px;
+        }
+        .sub {
+        font-size: 16px;
+        font-weight: 700;
         }
       }
 </style>
@@ -172,13 +184,20 @@
 <div class="center">
     <div class="stack-area">
       <div class="left">
-        <h1 class="title" id="expertise">
-          Notre <br />
-          <span>Expertise</span>
-        </h1>
-        <p class="text-center" style="width: 450px">
-          Je propose une gamme variée de services pour répondre à vos besoins en matière de présence en ligne. Chaque service est conçu pour vous aider à atteindre vos objectifs spécifiques et à maximiser votre impact numérique.
-        </p>
+        <div class="hero-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="title">Notre<span> Expertise</span>
+                </h1>
+                <br/>
+        
+                <p class="mx-850 text-center">Je propose une gamme variée de services pour répondre à vos besoins en matière de présence en ligne. Chaque service est conçu pour vous aider à atteindre vos objectifs spécifiques et à maximiser votre impact numérique.              </p>
+                <br/>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="right">
         <div class="cards">

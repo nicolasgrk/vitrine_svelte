@@ -7,7 +7,7 @@
 
 <div class="col-md-6 col-lg-4">
   <div class="feature-item">
-    <img src={`/img/mockup/${img}.png`} alt="icon" width="500" class="mockup" />
+    <img src={`/img/mockup/${img}.png`} alt="icon"   class="mockup" />
     <h3>{title}</h3>
     <p>{content}</p>
     {#if link !== ''}
