@@ -6,7 +6,7 @@
 	import About from "../components/aboutComponent.svelte";
 	import Card from "../components/cardComponent.svelte";
 	import FeatureItem from "../components/FeatureItem.svelte";
-	import ContactForm  from "../components/ContactForm.svelte";
+	import ContactForm  from "../components/ContactForm2.svelte";
   import { onMount } from 'svelte';
 
 

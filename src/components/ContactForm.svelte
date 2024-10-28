@@ -1,35 +1,48 @@
 <script>
-  import { onMount } from 'svelte';
-  let successModal;
-
-  onMount(() => {
-    // Assurez-vous que Bootstrap est chargé
-    // Cela pourrait ne pas être nécessaire si Bootstrap est déjà chargé globalement
-    // mais utile si vous chargez les scripts dynamiquement
-  });
+  // Fonction pour encoder les données du formulaire
+  function encode(data) {
+    return Object.keys(data)
+      .map(
+        (key) =>
+          encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
+      )
+      .join('&');
+  }
 
   async function handleSubmit(event) {
     event.preventDefault();
     const form = event.target;
     const formData = new FormData(form);
-    
+    const data = Object.fromEntries(formData.entries());
+
+    // Vérifier le champ honeypot pour les robots
+    if (data['bot-field']) {
+      // Si le champ est rempli, c'est un robot, on arrête la soumission
+      return;
+    }
+    delete data['bot-field'];
+
     try {
-      const response = await fetch('https://nicolasgurakapi.alwaysdata.net/mail.php', {
+      const response = await fetch('/', {
         method: 'POST',
-        body: formData,
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({ 'form-name': form.getAttribute('name'), ...data }),
       });
-      
+
       if (response.ok) {
-        new bootstrap.Modal(successModal).show();
+        // Réinitialiser le formulaire après soumission réussie
+        form.reset();
+        alert('Votre message a été envoyé avec succès.');
       } else {
-        alert('Erreur lors de l\'envoi de l\'email.');
+        alert("Erreur lors de l'envoi du formulaire.");
       }
     } catch (error) {
       alert('Erreur lors de la connexion au serveur.');
     }
   }
 </script>
-<div class="contact-area mtb-192" >
+
+<div class="contact-area mtb-192">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -41,7 +54,22 @@
           <p>
             Votre projet mérite une attention sur-mesure. Contactez-moi dès maintenant pour le concrétiser ensemble !
           </p>
-          <form name="contact" action="https://nicolasgurakapi.alwaysdata.net/mail.php" method="post" on:submit={handleSubmit}>
+          <form
+            name="contact"
+            netlify
+            netlify-honeypot="bot-field"
+            on:submit={handleSubmit}
+          >
+            <!-- Champ caché requis pour Netlify -->
+            <input type="hidden" name="form-name" value="contact" />
+
+            <!-- Champ honeypot pour les robots -->
+            <p class="hidden">
+              <label>
+                Ne remplissez pas ce champ si vous êtes humain : <input name="bot-field" />
+              </label>
+            </p>
+
             <div class="form-group">
               <div class="input-group">
                 <input type="text" placeholder="Prénom*" required name="firstname" />
@@ -54,7 +82,7 @@
                 <input type="email" placeholder="Adresse e-mail*" required name="email" />
                 <input type="text" placeholder="Téléphone*" required name="tel" />
               </div>
-              <input type="text" placeholder="Décrivez votre projet" name="message" required />
+              <textarea placeholder="Décrivez votre projet" name="message" required></textarea>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="flexCheckDefault" required />
@@ -62,28 +90,14 @@
             </div>
             <button type="submit" class="btn btn-primary">Envoyer</button>
           </form>
-          
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Modal -->
-<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" bind:this={successModal}>
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" style="background-color: var(--dark-700); border-color: var(--lavender);">
-      <div class="modal-header" style="border-bottom-color: var(--lavender);">
-        <h5 class="modal-title" id="modalLabel" style="color: var(--light);">Message envoyé</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: var(--light);">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body" style="color: var(--light);">
-        Votre message a été envoyé avec succès. Nous vous contacterons bientôt !
-      </div>
-      <div class="modal-footer" style="border-top-color: var(--lavender);">
-        <button type="button" class="btn" data-dismiss="modal" style="background-color: var(--lavender); color: var(--light);">Fermer</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
